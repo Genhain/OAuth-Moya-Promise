@@ -8,7 +8,7 @@ import PromiseKit
 public class OAuthMoyaPromise<Target>: MoyaProvider<Target> where Target: TargetType {
 	private(set) var oAuth: OAuth
 	
-	init(oAuth: OAuth,
+	public init(oAuth: OAuth,
 	     endpointClosure: @escaping EndpointClosure = MoyaProvider.defaultEndpointMapping,
 	     requestClosure: @escaping RequestClosure = MoyaProvider.defaultRequestMapping,
 	     stubClosure: @escaping StubClosure = MoyaProvider.neverStub,
@@ -42,7 +42,7 @@ public class OAuthMoyaPromise<Target>: MoyaProvider<Target> where Target: Target
 }
 
 public extension MoyaProvider {
-	func requestPromise<T: BaseMappable>(_ target: Target, type: T.Type, atKeyPath keyPath: String? = nil) -> Promise<T> {
+	public func requestPromise<T: BaseMappable>(_ target: Target, type: T.Type, atKeyPath keyPath: String? = nil) -> Promise<T> {
 		return Promise<T> { [weak self] fulfill, reject in
 			self?.request(target) { result in
 				switch result {
@@ -60,7 +60,7 @@ public extension MoyaProvider {
 		}
 	}
 	
-	func requestPromiseForCollection<T: BaseMappable>(_ target: Target, type: T.Type, atKeyPath keyPath: String? = nil) -> Promise<[T]> {
+	public func requestPromiseForCollection<T: BaseMappable>(_ target: Target, type: T.Type, atKeyPath keyPath: String? = nil) -> Promise<[T]> {
 		return Promise<[T]> { [weak self] fulfill, reject in
 			self?.request(target) { result in
 				switch result {
