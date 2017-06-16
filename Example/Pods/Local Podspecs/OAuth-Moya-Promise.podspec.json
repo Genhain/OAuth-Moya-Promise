@@ -1,0 +1,33 @@
+{
+  "name": "OAuth-Moya-Promise",
+  "version": "0.1.0",
+  "summary": "A short description of OAuth-Moya-Promise.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Genhain/OAuth-Moya-Promise",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Genhain": "voxhavoccanis@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Genhain/OAuth-Moya-Promise.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OAuth-Moya-Promise/Classes/**/*",
+  "dependencies": {
+    "Moya": [
+
+    ],
+    "Moya-ObjectMapper": [
+
+    ],
+    "PromiseKit": [
+
+    ]
+  }
+}
