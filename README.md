@@ -1,6 +1,4 @@
 # OAuth-Moya-Promise
-
-[![Version](https://img.shields.io/cocoapods/v/NSString+ShellSplit.svg?style=flat)](http://cocoapods.org/pods/OAuth-Moya-Promise)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Genhain/OAuth-Moya-Promise/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/NSString+ShellSplit.svg?style=flat
 )](http://cocoapods.org/pods/OAuth-Moya-Promise)
