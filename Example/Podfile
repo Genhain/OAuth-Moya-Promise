@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'OAuth-Moya-Promise_Example' do
+  pod 'OAuth-Moya-Promise', :path => '../'
+
+  target 'OAuth-Moya-Promise_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+  end
+end
