@@ -1,0 +1,6 @@
+framework module OAuth_Moya_Promise {
+  umbrella header "OAuth-Moya-Promise-umbrella.h"
+
+  export *
+  module * { export * }
+}

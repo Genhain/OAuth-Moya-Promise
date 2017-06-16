@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084970A01EF39A5A00F884EC /* OAuth-Moya-PromiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0849709F1EF39A5A00F884EC /* OAuth-Moya-PromiseTests.swift */; };
 		5448E8D11A9BC76D05BA6A11 /* Pods_OAuth_Moya_Promise_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6165A5EE94E3029671EC1436 /* Pods_OAuth_Moya_Promise_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0849709F1EF39A5A00F884EC /* OAuth-Moya-PromiseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OAuth-Moya-PromiseTests.swift"; sourceTree = "<group>"; };
 		239FEDDCE49C0BEF061E5823 /* Pods_OAuth_Moya_Promise_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAuth_Moya_Promise_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		582AD14DD14F8395E540DE0D /* Pods-OAuth-Moya-Promise_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth-Moya-Promise_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OAuth-Moya-Promise_Tests/Pods-OAuth-Moya-Promise_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OAuth-Moya-Promise_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OAuth-Moya-Promise_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +45,10 @@
 		61138001090585558465E35C /* Pods-OAuth-Moya-Promise_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth-Moya-Promise_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OAuth-Moya-Promise_Tests/Pods-OAuth-Moya-Promise_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6165A5EE94E3029671EC1436 /* Pods_OAuth_Moya_Promise_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAuth_Moya_Promise_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61826E6DB7CAC822759E67E5 /* Pods-OAuth-Moya-Promise_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth-Moya-Promise_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OAuth-Moya-Promise_Example/Pods-OAuth-Moya-Promise_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8E11CABF6AB3DB418EF47C70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A6B35224E25D9CD41A50F639 /* OAuth-Moya-Promise.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "OAuth-Moya-Promise.podspec"; path = "../OAuth-Moya-Promise.podspec"; sourceTree = "<group>"; };
+		8E11CABF6AB3DB418EF47C70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A6B35224E25D9CD41A50F639 /* OAuth-Moya-Promise.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "OAuth-Moya-Promise.podspec"; path = "../OAuth-Moya-Promise.podspec"; sourceTree = "<group>"; };
 		BA0BC3D71F3011BF44989F05 /* Pods-OAuth-Moya-Promise_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth-Moya-Promise_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OAuth-Moya-Promise_Example/Pods-OAuth-Moya-Promise_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F892B3C4596AD9189F94C89C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F892B3C4596AD9189F94C89C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				0849709F1EF39A5A00F884EC /* OAuth-Moya-PromiseTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -220,7 +223,6 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -371,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				084970A01EF39A5A00F884EC /* OAuth-Moya-PromiseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
